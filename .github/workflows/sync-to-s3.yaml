@@ -17,6 +17,11 @@ jobs:
           node-version: 18
           cache: "npm"
 
+      - name: Remove cruft
+        run: |
+          rm -rf .github .git 
+          rm -f package* .gitignore* *.md LICENSE
+
       # Transfer files s3 bucket
       - name: Sync files to bucket
         uses: jakejarvis/s3-sync-action@master
