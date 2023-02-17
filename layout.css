@@ -1,0 +1,142 @@
+body {
+  background-color: #81927f;
+}
+body {
+}
+
+.arrowLink {
+  position: absolute;
+  display: inline-block;
+  width: auto;
+  height: 50px;
+  background: url(img/space.gif) no-repeat 0% 15%;
+  background-size: 35px 35px;
+}
+
+.arrowLink:hover {
+  background: url(img/ringbg.gif) no-repeat 0% 15%;
+  background-size: 35px 35px;
+}
+
+.link {
+  position: relative;
+  left: 45px;
+}
+
+/** 
+👇🏽 Adjust the top and left coordinates for arrowLinks 1-6 to reposition main links on home page
+*/
+
+.arrowLink1 {
+  top: 135px;
+  left: 200px;
+}
+.arrowLink2 {
+  top: 185px;
+  left: 200px;
+}
+.arrowLink3 {
+  top: 225px;
+  left: 200px;
+}
+.arrowLink4 {
+  top: 275px;
+  left: 200px;
+}
+.arrowLink5 {
+  top: 325px;
+  left: 200px;
+}
+.arrowLink6 {
+  top: 375px;
+  left: 200px;
+}
+
+a {
+  color: #ffde84;
+  font-family: Georgia;
+  font-style: bold;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.logo {
+  font: bold 40px Courier New;
+  color: #dfe8b1;
+}
+#page1 {
+  float: right;
+  margin-right: 25px;
+}
+
+.pic1 {
+  position: absolute;
+  top: 158px;
+  left: 313px;
+}
+/* .link1 {
+  position: absolute;
+  top: 156px;
+  left: 373px;
+} */
+.pic2 {
+  position: absolute;
+  top: 207px;
+  left: 357px;
+}
+.link2 {
+  position: absolute;
+  top: 205px;
+  left: 417px;
+}
+.pic3 {
+  position: absolute;
+  top: 256px;
+  left: 383px;
+}
+.link3 {
+  position: absolute;
+  top: 254px;
+  left: 443px;
+}
+.pic4 {
+  position: absolute;
+  top: 305px;
+  left: 394px;
+}
+.link4 {
+  position: absolute;
+  top: 303px;
+  left: 454px;
+}
+.pic5 {
+  position: absolute;
+  top: 354px;
+  left: 385px;
+}
+.link5 {
+  position: absolute;
+  top: 352px;
+  left: 445px;
+}
+.pic6 {
+  position: absolute;
+  top: 403px;
+  left: 378px;
+}
+.link6 {
+  position: absolute;
+  top: 401px;
+  left: 438px;
+}
+.pic7 {
+  position: absolute;
+  top: 452px;
+  left: 333px;
+}
+.link7 {
+  position: absolute;
+  top: 450px;
+  left: 393px;
+}
