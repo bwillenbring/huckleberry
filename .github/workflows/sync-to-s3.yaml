@@ -16,6 +16,9 @@ jobs:
         with:
           node-version: 18
           cache: "npm"
+        run: |
+          rm -rf .github 
+          rm -f package* .gitignore* *.md LICENSE
 
       # Transfer files s3 bucket
       - name: Sync files to bucket
