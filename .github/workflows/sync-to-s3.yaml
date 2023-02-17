@@ -19,7 +19,7 @@ jobs:
 
       - name: Remove cruft
         run: |
-          rm -rf .github 
+          rm -rf .github .git 
           rm -f package* .gitignore* *.md LICENSE
 
       # Transfer files s3 bucket
