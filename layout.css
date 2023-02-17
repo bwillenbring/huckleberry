@@ -4,6 +4,22 @@ body {
 body {
 }
 
+/** This css recreates the glory of 1996 <blink> tag */
+.blink {
+  animation: 1s linear infinite blink_effect;
+}
+@keyframes blink_effect {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
 .arrowLink {
   position: absolute;
   display: inline-block;
