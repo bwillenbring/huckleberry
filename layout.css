@@ -1,13 +1,24 @@
 body {
   background-color: #81927f;
 }
+#header {Position: absolute; left: 50%; width: 615px; margin-left: -315px; background-color: #81927F;}
+#content {Position: absolute; top: 100px; left: 50%; width: 600px; margin-left: -315px;}
+#content {background-color: white; padding: 15px;}
+#footer {position: absolute; top: 680px; background-color: #81927F; }
+h1 {color: #FFDE84; height: 8px;}
+hr {height: 2px;}
+ul {display: inline; padding: 8px; margin: 8px;}
+li {position: relative; float: left; margin: 8px;}
+dt {color: gray;}
+dd {font-family: papyrus;}
+p {font-family: papyrus;}
 
 /** This css recreates the glory of 1996 <blink> tag */
 .blink {
   animation: 1s linear infinite blink_effect;
 }
 @keyframes blink_effect {
-  0% {
+  0% { 
     visibility: hidden;
   }
   50% {
@@ -16,6 +27,19 @@ body {
   100% {
     visibility: visible;
   }
+}
+
+.headfoot {
+	font-family: papyrus;
+	font-size: small;
+	color: black;
+}
+
+.welcome {
+	padding: 30px;
+	font-family: papyrus;
+	font-size: large;
+	color: blue;
 }
 
 .arrowLink {
@@ -42,28 +66,28 @@ body {
 */
 
 .arrowLink1 {
-  top: 135px;
-  left: 200px;
+  top: 25px;
+  left: 100px;
 }
 .arrowLink2 {
-  top: 185px;
-  left: 200px;
+  top: 75px;
+  left: 125px;
 }
 .arrowLink3 {
-  top: 225px;
-  left: 200px;
+  top: 125px;
+  left: 140px;
 }
 .arrowLink4 {
-  top: 275px;
-  left: 200px;
+  top: 175px;
+  left: 150px;
 }
 .arrowLink5 {
-  top: 325px;
-  left: 200px;
+  top: 225px;
+  left: 158px;
 }
 .arrowLink6 {
-  top: 375px;
-  left: 200px;
+  top: 275px;
+  left: 159px;
 }
 
 a {
@@ -154,3 +178,4 @@ a {
   top: 450px;
   left: 393px;
 }
+
